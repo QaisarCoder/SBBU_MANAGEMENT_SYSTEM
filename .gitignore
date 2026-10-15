@@ -1,0 +1,32 @@
+﻿# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Database dumps and backups
+*.sql
+*.sql.*
+*.bak
+*.backup
+*.old
+
+# Local AI and editor settings
+.claude/
+.kilo/
+.vscode/
+.idea/
+
+# Dependencies
+vendor/
+node_modules/
+
+# Logs and caches
+*.log
+error_log
+*.cache
+.cache/
+storage/logs/
+
+# Operating system
+.DS_Store
+Thumbs.db
